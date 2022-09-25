@@ -7,7 +7,7 @@ const PORT = process.env.PORT
 const app = express()
 
 // connecting to DB
-connectToMongoDB()
+connectToMongoDB
 
 app.use(express.json())
 
